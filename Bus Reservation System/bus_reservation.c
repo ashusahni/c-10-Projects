@@ -17,7 +17,7 @@ int busCount = 0;
 
 void addBus() {
     if (busCount >= MAX_BUSES) {
-        printf("Cannot add more buses. The list is full.\n");
+        printf("Cannot add buses. The list is full.\n");
         return;
     }
     struct Bus newBus;
