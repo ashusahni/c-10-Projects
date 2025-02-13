@@ -90,7 +90,7 @@ int main() {
     int choice;
     while (1) {
         printf("\nFitness Tracker System\n");
-        printf("1. Add Activity\n");
+        printf("1. Add activity\n");
         printf("2. Display Activities\n");
         printf("3. Search Activity\n");
         printf("4. Delete Activity\n");
