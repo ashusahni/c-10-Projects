@@ -13,7 +13,7 @@ int numCandidates = 0;    // Number of candidates
 
 // Function to initialize candidates
 void initializeCandidates() {
-    printf("Enter the number of candidates: ");
+    printf("Enter the number of candidate: ");
     scanf("%d", &numCandidates);
     getchar();  // Consume newline character
 
