@@ -27,9 +27,9 @@ int main() {
         printf("\nStudent Gradebook System\n");
         printf("1. Add Student\n");
         printf("2. Display Students\n");
-        printf("3. Search Student\n");
+        printf("3. Search Students\n");
         printf("4. Exit\n");
-        printf("Enter your choice: ");
+        printf("Enter your choices: ");
         scanf("%d", &choice);
 
         switch (choice) {
@@ -130,5 +130,5 @@ void searchStudent(struct Student* students, int count) {
         }
     }
 
-    printf("Student with Roll Number %d not found.\n", roll_no);
+    printf("Student  Roll Number %d not found.\n", roll_no);
 }
