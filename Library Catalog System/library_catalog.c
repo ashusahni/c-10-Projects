@@ -22,7 +22,7 @@ int bookCount = 0;
 // Function to add a new book
 void addBook() {
     if (bookCount >= MAX_BOOKS) {
-        printf("Cannot add more books. The catalog is full.\n");
+        printf("Cannot add more books. The catalog full.\n");
         return;
     }
     struct Book newBook;
