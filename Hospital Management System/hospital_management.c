@@ -27,7 +27,7 @@ int main() {
         printf("1. Add Patient\n");
         printf("2. Display Patients\n");
         printf("3. Search Patient\n");
-        printf("4. Delete Patient\n");
+        printf("4. Delete Patiet\n");
         printf("5. Exit\n");
         printf("Enter your choice: ");
         scanf("%d", &choice);
