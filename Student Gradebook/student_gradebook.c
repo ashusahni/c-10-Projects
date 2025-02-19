@@ -130,5 +130,5 @@ void searchStudent(struct Student* students, int count) {
         }
     }
 
-    printf("Student  Roll Number %d not found.\n", roll_no);
+    printf("Student  Roll Number %d not availble.\n", roll_no);
 }
