@@ -21,7 +21,7 @@ int touristCount = 0;
 // Function to add a new tourist
 void addTourist() {
     if (touristCount >= MAX_TOURISTS) {
-        printf("Cannot add more tourists. The list is full.\n");
+        printf("Cannot add more tourists. list is full.\n");
         return;
     }
     struct Tourist newTourist;
