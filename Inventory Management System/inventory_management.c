@@ -20,15 +20,16 @@ int itemCount = 0;
 // Function to add a new item
 void addItem() {
     if (itemCount >= MAX_ITEMS) {
-        printf("Cannot add more items. The inventory is full.\n");
+        printf("Cannot add more . The inventory is full.\n");
         return;
     }
     struct Item newItem;
+
     printf("Enter Item ID: ");
     scanf("%d", &newItem.id);
     printf("Enter Item Name: ");
     scanf("%s", newItem.name);
-    printf("Enter Item Quantity: ");
+    printf("Enter Item antity: ");
     scanf("%d", &newItem.quantity);
     printf("Enter Item Price: ");
     scanf("%f", &newItem.price);
