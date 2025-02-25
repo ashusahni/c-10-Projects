@@ -38,7 +38,7 @@ void addQuestion() {
     scanf("%d", &newQuestion.correctOption);
     newQuestion.correctOption--; // Convert to zero-based index
     questions[questionCount++] = newQuestion;
-    printf("Question added successfully!\n");
+    printf("added successfully!\n");
 }
 
 // Function to display all questions

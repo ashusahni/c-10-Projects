@@ -35,7 +35,7 @@ int main() {
     printf("Enter Basic Salary: ");
     scanf("%f", &emp.basic_salary);
     
-    printf("Enter Allowances: ");
+    printf("Enter Allowances ");
     scanf("%f", &emp.allowances);
     
     printf("Enter Deductions: ");

@@ -30,7 +30,7 @@ int passengerCount = 0;
 // Function to add a new flight
 void addFlight() {
     if (flightCount >= MAX_FLIGHTS) {
-        printf("Cannot add more flights. The list is full.\n");
+        printf("Cannot add more flights. it's full full.\n");
         return;
     }
     struct Flight newFlight;
