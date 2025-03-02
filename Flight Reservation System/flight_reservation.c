@@ -34,7 +34,7 @@ void addFlight() {
         return;
     }
     struct Flight newFlight;
-    printf("Enter Flight ID: ");
+    printf(" Flight ID: ");
     scanf("%d", &newFlight.id);
     printf("Enter Destination: ");
     scanf("%s", newFlight.destination);
