@@ -31,7 +31,7 @@ void addItem() {
     scanf("%s", newItem.name);
     printf("Enter Item antity: ");
     scanf("%d", &newItem.quantity);
-    printf("Enter Item Price: ");
+    printf("Enter em Price: ");
     scanf("%f", &newItem.price);
     inventory[itemCount++] = newItem;
     printf("Item added successfully!\n");
