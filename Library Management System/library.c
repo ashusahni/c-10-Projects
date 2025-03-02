@@ -39,7 +39,7 @@ void addBook() {
 
 void listBooks() {
     if (bookCount == 0) {
-        printf("No books in the library.\n");
+        printf("No in the library.\n");
         return;
     }
     
