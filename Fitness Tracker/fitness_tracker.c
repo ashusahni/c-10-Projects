@@ -65,7 +65,7 @@ void searchActivity() {
             return;
         }
     }
-    printf("Activity with ID %d not found.\n", id);
+    printf("Activity  ID %d not found.\n", id);
 }
 
 // Function to delete an activity by ID
